@@ -1,0 +1,25 @@
+{
+  "name": "oldc-live-meet",
+  "version": "2.0.0",
+  "description": "OLDC LIVE MEET — a secure, role-based online classroom platform with teacher-controlled lectures, student waiting rooms, admin observer mode, and automatic attendance tracking. Built with Node.js, Express, Socket.IO, WebRTC and SQLite.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "dev": "node --no-warnings server.js"
+  },
+  "keywords": ["classroom", "attendance", "webrtc", "socket.io", "sqlite"],
+  "author": "Senior Full Stack Engineer",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "socket.io": "^4.7.5",
+    "ua-parser-js": "^1.0.38"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
